@@ -127,7 +127,7 @@ Create a pitch deck (10-15 slide **Google Presentation**)* to share and plan you
 1. Flowcharts (2–3) showing each step users see, and another [showing how data works](https://www.google.com/search?q=a+flowchart+that+tracks+data+through+the+app&safe=off&tbm=isch) in the app
 1. [Wireframes](https://www.dreamhost.com/blog/how-to-wireframe-website/) showing all the views in the interface (introduction page, forms, results page)
 1. Technology - Include [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) of the main logic of your project. List technologies and demos you think you will need. List the "**unknowns**"—parts of your idea that you don't know yet how to execute.
-
+1. Does your project use data? What potential [sources](https://github.com/omundy/dig245-regenerative?tab=readme-ov-file#data-sources) will you use?
 
 
 
