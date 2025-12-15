@@ -1,8 +1,12 @@
 
 /* css */
 
+/* define font styles */
 html {
     font-size: 16px;
+    font-family: "Courier Prime", 'Courier New', Courier, monospace;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 h1 {
@@ -23,4 +27,21 @@ h4 {
 
 h5 {
     font-size: 1rem;
+}
+
+/* define theme colors */
+:root {
+    --black: #1d1e18;
+    --red: #c62D0a;
+    --white: #fef9ef;
+    --grey: #bab9b9;
+    --blue: #4e598c;
+    --dark-blue: #34394c;
+    --dark-red: #821800;
+}
+
+.title-page {
+    display: grid;
+    align-content: center;
+    align
 }
