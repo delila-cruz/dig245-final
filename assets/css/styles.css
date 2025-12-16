@@ -6,7 +6,10 @@ html {
     font-size: 16px;
     font-family: "Courier Prime", 'Courier New', Courier, monospace;
     background-color: var(--black);
-    color: var(--white);
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
 }
 
 h1 {
@@ -17,9 +20,10 @@ h2 {
     font-size: 2.5rem;
 }
 
-h3 {
+h3, p {
     font-size: 2rem;
 }
+
 
 h4 {
     font-size: 1.5rem;
@@ -38,10 +42,89 @@ h5 {
     --blue: #4e598c;
     --dark-blue: #34394c;
     --dark-red: #821800;
+    --space: 0.5rem;
 }
 
-.title-page {
+
+/* add outlines to help me troubleshoot */
+/* div {
+    outline: 2px solid white;
+} */
+
+body {
+    margin: 0;
+}
+
+.intro {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.frame {
+    height: 100vh;
     display: grid;
-    align-content: center;
-    align
+    place-items: center;
+    padding: 2rem;
+}
+
+.fix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.fix-uncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.transition {
+    height: 100vh;
+    background-image: url(../svg/quilt-background.svg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.think {
+    overflow: scroll;
+}
+
+.user-stories {
+    height: 100vh;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--white);
+    gap: 2rem;
+    align-items: start;
+    justify-items: start;
+
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.story img {
+    align-self: center;
+    width: 259px;
+    height: 259px;
+    object-fit: contain;
+    display: block;
+}
+
+.expected {
+    padding: 20%;
+    color: var(--white);
+    background-color: var(--dark-blue);
 }
