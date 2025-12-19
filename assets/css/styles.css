@@ -107,6 +107,7 @@ body {
 
 .transition {
     height: 100vh;
+    width: auto;
     background-image: url(../svg/quilt-background.svg);
     background-size: cover;
     background-position: 100% 100%;
