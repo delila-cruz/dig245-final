@@ -122,6 +122,18 @@ body {
     height: 100vh;
     display: grid;
     padding: 2rem;
+    color: var(--white);
+    align-items: start;
+    justify-items: start;
+    z-index: 0;
+
+}
+
+@media screen and (min-width: 600px) {
+    .user-stories {
+    height: 100vh;
+    display: grid;
+    padding: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     color: var(--white);
     gap: 2rem;
@@ -129,6 +141,7 @@ body {
     justify-items: start;
     z-index: 0;
 
+    }   
 }
 
 .story {
@@ -308,4 +321,8 @@ a {
 .quilted {
     width: 50vw;
     height: auto;
+}
+
+.john {
+    font-size: 1.85rem;
 }
