@@ -78,7 +78,6 @@ ScrollTrigger.create({
 });
 
 
-
 let mm = gsap.matchMedia();
 mm.add("(min-width: 600px)", () => {
   ScrollTrigger.create({
@@ -99,7 +98,6 @@ mm.add("(min-width: 600px)", () => {
   }
 });
 })
-
 
 ScrollTrigger.create({
   trigger: ".expected",
@@ -283,9 +281,11 @@ ScrollTrigger.create({
   }
 });
 
-ScrollTrigger.create({
+let mm = gsap.matchMedia();
+mm.add("(min-width: 600px)", () => {
+  ScrollTrigger.create({
   trigger: ".reprise",
-  pin: true,
+  pin: true, 
   start: "top top", 
   end: "+=1000", 
   onToggle: (self) => console.log("toggled, isActive:", self.isActive),
@@ -300,6 +300,7 @@ ScrollTrigger.create({
     );
   }
 });
+})
 
 ScrollTrigger.create({
   trigger: ".different",
