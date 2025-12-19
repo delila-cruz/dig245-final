@@ -115,6 +115,12 @@ body {
     background-attachment: fixed;
 }
 
+@media screen and (max-width: 600px) {
+    .transition {
+        background-attachment: scroll;
+    }
+}
+
 .think {
     overflow: scroll;
 }
