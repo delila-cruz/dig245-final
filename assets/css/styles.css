@@ -1,32 +1,35 @@
-
 /* css */
 
 /* define font styles */
 @media screen and (min-width: 0px) {
     html {
-    font-size: 10px;
-    font-family:"Courier Prime", 'Courier New', Courier, monospace;
-    background-color: var(--black);
-    }  
+        font-size: 10px;
+        font-family: "Courier Prime", 'Courier New', Courier, monospace;
+        background-color: var(--black);
+    }
 }
 
 @media screen and (min-width: 600px) {
     html {
         font-size: 12px;
-        font-family:"Courier Prime", 'Courier New', Courier, monospace;
+        font-family: "Courier Prime", 'Courier New', Courier, monospace;
         background-color: var(--black);
-    } 
+    }
 }
 
 @media screen and (min-width: 1200px) {
     html {
         font-size: 18px;
-        font-family:"Courier Prime", 'Courier New', Courier, monospace;
+        font-family: "Courier Prime", 'Courier New', Courier, monospace;
         background-color: var(--black);
-    } 
+    }
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
 }
 
@@ -38,7 +41,8 @@ h2 {
     font-size: 2.5rem;
 }
 
-h3, p {
+h3,
+p {
     font-size: 2rem;
 }
 
@@ -139,17 +143,17 @@ body {
 
 @media screen and (min-width: 600px) {
     .user-stories {
-    height: 100vh;
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: var(--white);
-    gap: 2rem;
-    align-items: start;
-    justify-items: start;
-    z-index: 0;
+        height: 100vh;
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: var(--white);
+        gap: 2rem;
+        align-items: start;
+        justify-items: start;
+        z-index: 0;
 
-    }   
+    }
 }
 
 .story {
@@ -254,9 +258,9 @@ body {
 }
 
 .label {
-      grid-column: 1/-1;
-      color: var(--white);
-      font-size: 1.75rem;
+    grid-column: 1/-1;
+    color: var(--white);
+    font-size: 1.75rem;
 }
 
 .frame-stacked {
@@ -319,7 +323,7 @@ a {
 
 .frame-dummy {
     height: 75vh;
-   
+
 }
 
 .frame-dumbest {
