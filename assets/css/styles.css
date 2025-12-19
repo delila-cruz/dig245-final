@@ -131,7 +131,6 @@ body {
 .expected {
     padding: 20%;
     color: var(--white);
-    background-color: var(--dark-blue);
     grid-column: 1/-1;
     z-index: 1;
 }
@@ -229,4 +228,60 @@ body {
 .explain {
     color: var(--white);
     padding: 20%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.imporant {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.personal-story {
+    color: var(--white);
+    padding: 15%;
+    font-size: .75rem;
+}
+
+.link {
+    font-size: .25rem;
+}
+
+a {
+    color: var(--white);
+}
+
+.tiny-usa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.resize {
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.end {
+    color: var(--white);
+    text-align: center;
+}
+
+.frame-last {
+    height: 30vh;
+    place-items: center;
+    padding: 2rem;
+}
+
+.frame-dummy {
+    height: 75vh;
+   
+}
+
+.frame-dumbest {
+    height: 17vh;
 }
