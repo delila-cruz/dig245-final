@@ -46,8 +46,8 @@ h5 {
 }
 
 
-/* add outlines to help me troubleshoot */
-/* div {
+/* add div outlines to help me troubleshoot 
+div {
     outline: 2px solid white;
 } */
 
@@ -82,6 +82,10 @@ body {
     gap: 1.25rem;
 }
 
+.frame-transition {
+    height: 100vh;
+}
+
 .transition {
     height: 100vh;
     background-image: url(../svg/quilt-background.svg);
@@ -104,6 +108,7 @@ body {
     gap: 2rem;
     align-items: start;
     justify-items: start;
+    z-index: 0;
 
 }
 
@@ -127,4 +132,101 @@ body {
     padding: 20%;
     color: var(--white);
     background-color: var(--dark-blue);
+    grid-column: 1/-1;
+    z-index: 1;
+}
+
+.question {
+    padding: 0% 20% 0% 20%;
+    color: var(--white);
+    text-align: center;
+}
+
+.issue {
+    color: var(--white);
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3%;
+}
+
+.urban-issue {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+.u-on {
+    width: 100%;
+    height: 90%;
+    background: var(--red);
+}
+
+.overall-issue {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+.o-on {
+    width: 100%;
+    height: 90%;
+    background: #434341;
+}
+
+.rural-issue {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+.r-on {
+    width: 100%;
+    height: 90%;
+    background-color: var(--dark-blue);
+}
+
+.suburban-issue {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+}
+
+.s-on {
+    width: 100%;
+    height: 90%;
+    background-color: var(--white);
+}
+
+
+.off {
+    width: 100%;
+    height: 90%;
+    outline: 1px solid #282a20;
+}
+
+.label {
+      grid-column: 1/-1;
+      color: var(--white);
+      font-size: 1.75rem;
+}
+
+.frame-stacked {
+    place-items: start center;
+    align-content: center;
+    row-gap: 1.5rem;
+}
+
+.explain {
+    color: var(--white);
+    padding: 20%;
 }
