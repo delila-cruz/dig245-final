@@ -119,7 +119,7 @@ body {
     background-attachment: fixed;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1199px) {
     .transition {
         background-attachment: scroll;
     }
